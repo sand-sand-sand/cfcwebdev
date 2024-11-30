@@ -1,3 +1,10 @@
 #blue {
     color: blue
 }
+.funnysel img {
+    border: 5px solid #000;  /* Adds a black border around the image */
+    width: 300px;            /* Sets the width of the image */
+    height: auto;            /* Keeps the aspect ratio */
+    border-radius: 10px;     /* Rounds the corners of the image */
+}
+/* # is for ids, . is for classes  */
