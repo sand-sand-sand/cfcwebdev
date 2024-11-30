@@ -1,10 +1,17 @@
 #blue {
-    color: blue
+  color: blue;
 }
 .funnysel img {
-    border: 5px solid #000;  /* Adds a black border around the image */
-    width: 300px;            /* Sets the width of the image */
-    height: auto;            /* Keeps the aspect ratio */
-    border-radius: 10px;     /* Rounds the corners of the image */
+  border: 5px solid #000; /* Adds a black border around the image */
+  width: 500px; /* Sets the width of the image */
+  height: auto; /* Keeps the aspect ratio */
+  border-radius: 0px; /* Rounds the corners of the image */
 }
+
+#seal-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* flexbox or grid */
 /* # is for ids, . is for classes  */
