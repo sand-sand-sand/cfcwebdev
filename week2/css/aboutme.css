@@ -1,0 +1,36 @@
+body {
+  background-color: black; /* Set the background color to black */
+  display: flex; /* Enable Flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  color: white;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+}
+#title {
+  background-color: white;
+  color: black;
+  flex-direction: row;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  background-color: black;
+  width: 100vw;
+}
+.flex-container > div {
+  color: white;
+  width: 300px;
+  margin: 30px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+.classington:hover {
+    background-color: white;    
+}
